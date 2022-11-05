@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Dalbir</title>
+    <style type="text/css">
+      * {
+        font-family: monospace;
+        font-size: 14px;
+        width: 400px;
+      }
+      /* Mobile friendky */
+
+      @media only screen and (max-width: 600px) {
+        * {
+          width: 95%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      WHO(1)
+
+      <h1>NAME</h1>
+      <blockquote>
+        <p>Dalbir</p>
+      </blockquote>
+
+      <h2>SYNOPSIS</h2>
+      <blockquote>
+        <p>
+          Just another person trying to find out how to responsibly live on this
+          earth.
+        </p>
+      </blockquote>
+
+      <h2>DESCRIPTION</h2>
+      <blockquote>
+        <p>I am student doing my bachelors in sofftware engireening.</p>
+
+        <p>
+          You can find my profile on
+          <a href="https://github.com/dal3ir">Github.</a>
+          <!-- or my <a href="assets/resume.pdf">resume</a>. -->
+        </p>
+      </blockquote>
+
+      <h2>TODO</h2>
+      <blockquote>
+        <p>
+          You can find my occasionally updated TODO list
+          <a href="assets/TODO.md">here</a>.
+        </p>
+      </blockquote>
+
+      <h2>CONTACT</h2>
+      <blockquote>
+        <p>
+          If you should desire to contact me, you can reach me using
+          <i>contact</i> at <i>this domain</i>.
+        </p>
+        <p>
+          If you can, do me the favor of encrypting your email to me and I will
+          return the favor. My GPG key can be fetched from
+          <a href="assets/public.txt">here</a> and its fingerprint is
+        </p>
+        <div style="text-align: center">
+          <b>1A84 D1C2 9500 3162 4A87 5FB2 C511 D2AB DF02 EDB0</b>
+        </div>
+        <p>and can be verified offline.</p>
+        <p>
+          You can contact me on twitter with
+          <a href="https://twitter.com/dal3ir">@dal3ir</a>.
+        </p>
+      </blockquote>
+
+      <h2>COPYRIGHT</h2>
+      <blockquote>
+        <p>
+          The information on this site is licensed under the GNU GPL version 3.
+        </p>
+      </blockquote>
+    </div>
+    <script src="assets/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener("load", addDarkmodeWidget);
+
+      const options = {
+        mixColor: "#000", // default: '#fff'
+        backgroundColor: "#eee", // default: '#fff'
+        buttonColorDark: "#fff", // default: '#100f2c'
+        buttonColorLight: "#fff", // default: '#fff'
+        saveInCookies: false, // default: true,
+        label: "🌓", // default: ''
+        autoMatchOsTheme: true, // default: true
+      };
+
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+    </script>
+  </body>
+</html>
